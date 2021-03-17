@@ -1,0 +1,23 @@
+main{
+    background-color: rgba(0, 0, 255, 0.213);
+    padding: 10px;
+    text-align: center;
+    .box-container{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .box-prodotto{
+            width: 200px;
+            margin-right: 10px;
+            background-color: rgba(128, 128, 128, 0.33);
+            padding: 10px;
+            margin: 20px;
+            &:hover{
+                padding: 6px;
+                background-color: rgba(128, 128, 128, 0.508);
+                box-shadow: 10px 10px 10px black;
+            }
+        }
+    }
+}
+    

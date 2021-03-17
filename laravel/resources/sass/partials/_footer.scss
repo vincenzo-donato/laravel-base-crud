@@ -1,0 +1,20 @@
+footer{
+    background-color: #007bff;
+    .box-icons{
+        text-align: center;
+        color: white;
+        i{
+            color: white;
+            font-size: 40px;
+            margin-right: 5px;
+            &:hover{
+                cursor: pointer;
+                color: rgba(190, 188, 188, 0.337);
+            }
+        }
+    }
+    .copyright{
+        text-align: center;
+        color: white;
+    }
+}
